@@ -1,0 +1,23 @@
+
+
+.master{
+
+  &-container{
+    background-color: $primary-color
+  }
+  &-button{
+    background-color: $primary-color
+  }
+  &-par:hover{
+  color:red;
+  cursor:pointer;
+  background-color:blue
+  }
+  &:hover{
+    background-color: green
+  }
+}
+
+.img-main{
+  background-color: $primary-color;
+}

@@ -1,0 +1,14 @@
+%paddingo {
+  padding:50px;
+  background-color: orange;
+}
+.test{
+
+  +p{
+    font-size: .2em;
+    color:green;
+  }
+  color:white;
+  @extend %paddingo;
+  font-size: 3em;
+}
