@@ -1,4 +1,10 @@
 @import "variables";
+@import "typography";
+@import "reboot";
 
 @import "../components/layout";
-@import "../components/new";
+@import "../components/test";
+@import "../components/header/header";
+@import "../components/input/input";
+@import "../components/footer/footer";
+@import "../components/button/button";

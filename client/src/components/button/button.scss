@@ -1,0 +1,22 @@
+.button-main{
+  background-color: $button-color;
+  border:none;
+  color:white;
+  border-radius:5px;
+  font-size:17px;
+    letter-spacing: 0.04em;
+  display:flex;
+align-items: flex-end;
+      height: 100%;
+  padding:6px 17px;
+  font-family: DIN Condensed;
+  font-style: normal;
+  font-weight: bold;
+line-height: 20px;
+-webkit-font-smoothing: antialiased;
+text-align: center;
+}
+button span{
+  position:relative;
+  top:2px;
+}

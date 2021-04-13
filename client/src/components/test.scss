@@ -1,0 +1,12 @@
+%paddingo {
+  padding:50px;
+  background-color: orange;
+}
+.test{
+  &-p{
+    color:red;
+  }
+  color:white;
+  @extend %paddingo;
+  font-size: 1em;
+}
