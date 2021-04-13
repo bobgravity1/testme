@@ -3,7 +3,8 @@
 .master{
 
   &-container{
-    background-color: $primary-color
+    background-color: $primary-color;
+    font-size:9em;
   }
   &-button{
     background-color: $primary-color
